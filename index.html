@@ -1,98 +1,142 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a href="#">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a href="#">Agencja</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Kontakt</a></li>
+    <header class="header">
+        <a class="navigation-logo" href="#">WebStudio</a>
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-list-item">
+                    <a class="navigation-link" href="index.html">Agencja</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-link" href="#">Kontakt</a>
+                </li>
             </ul>
         </nav>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+        <address class="address">
+            <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address-phone-number" href="tel:+48111111111">+48 111 111 111</a>
+        </address>
     </header>
-    <main>  
-        <section>
-            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button type="button">Zamów usługe</button>
+    <main>
+        <!--HERO-->
+        <section class="hero">
+            <h1 class="hero-header"> EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="modal-btn" type="button">Zamów usługe</button>
         </section>
-        <section>
-            <ul>
-                <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam recusandae excepturi sit ut temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur voluptates reprehenderit amet ratione atque nesciunt quas!</p>
+        <!--END HERO-->
+        <!--OUR JOB-->
+        <section class="our-job">
+            <ul class="our-job-list">
+                <li class="our-job-list-item">
+                    <h3 class="our-job-list-header">LOREM IPSUM</h3>
+                    <p class="our-job-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam
+                        recusandae excepturi sit ut
+                        temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur
+                        voluptates reprehenderit amet ratione atque nesciunt quas!</p>
                 </li>
                 <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam recusandae excepturi sit ut temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur voluptates reprehenderit amet ratione atque nesciunt quas!</p>
+                    <h3 class="our-job-list-header">LOREM IPSUM</h3>
+                    <p class="our-job-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam
+                        recusandae excepturi sit ut
+                        temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur
+                        voluptates reprehenderit amet ratione atque nesciunt quas!</p>
                 </li>
                 <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolttor sit amet consectetur adipisicing elit. Hic totam recusandae excepturi sit ut temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur voluptates reprehenderit amet ratione atque nesciunt quas!</p>
+                    <h3 class="our-job-list-header">LOREM IPSUM</h3>
+                    <p class="our-job-text">Lorem ipsum dolttor sit amet consectetur adipisicing elit. Hic totam
+                        recusandae excepturi sit ut
+                        temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur
+                        voluptates reprehenderit amet ratione atque nesciunt quas!</p>
                 </li>
                 <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam recusandae excepturi sit ut temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur voluptates reprehenderit amet ratione atque nesciunt quas!</p>
+                    <h3 class="our-job-list-header">LOREM IPSUM</h3>
+                    <p class="our-job-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam
+                        recusandae excepturi sit ut
+                        temporibus adipisci nam. Assumenda suscipit exercitationem, officiis, maxime consequuntur
+                        voluptates reprehenderit amet ratione atque nesciunt quas!</p>
                 </li>
             </ul>
-            <h2>Czym się zajmujemy</h2>
-            <ul>
-                <li><img src="images/czym_sie_zajmujemy/img-4.jpg" alt="Pisanie kodu" width="370" height="294"></li>
-                <li><img src="images/czym_sie_zajmujemy/img-1-2.jpg" alt="Pisanie aplikacji na telefon" width="370" height="294"></li>
-                <li><img src="images/czym_sie_zajmujemy/img-2-2.jpg" alt="Projekt graficzny" width="370" height="294"></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Nasz zespół</h2>
-            <ul>
-                <li>
-                    
-                    <img src="images/nasz_zespol/img.jpg" alt="Zdjęcie John Doe" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>Product Designer</p>
-                
-                </li>
-                <li>
-            
-                    <img src="images/nasz_zespol/img-1.jpg" alt="Zdjęcie John Doe" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>Frontend Developer</p>
-                
-                </li>
-                <li>
-            
-                    <img src="images/nasz_zespol/img-2.jpg" alt="Zdjęcie John Doe" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>Marketing</p>
-                
-                </li>
-                <li>
-            
-                    <img src="images/nasz_zespol/img-3.jpg" alt="Zdjęcie John Doe" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>UI Designer</p>
-                
+            <h2 class="our-job-header">Czym się zajmujemy</h2>
+            <ul class="our-job-img-list">
+                <li class="our-job-img-list-item"><img src="images/czym_sie_zajmujemy/img-4.jpg" alt="Pisanie kodu"
+                        width="370" height="294"></li>
+                <li class="our-job-img-list-item"><img src="images/czym_sie_zajmujemy/img-1-2.jpg"
+                        alt="Pisanie aplikacji na telefon" width="370" height="294"></li>
+                <li class="our-job-img-list-item"><img src="images/czym_sie_zajmujemy/img-2-2.jpg"
+                        alt="Projekt graficzny" width="370" height="294">
                 </li>
             </ul>
         </section>
+        <!--END OUR JOB-->
+        <!--OUR TEAM-->
+        <section class="our-team">
+            <h2 class="our-team-header">Nasz zespół</h2>
+            <ul class="our-team-list">
+                <li class="our-team-list-item">
+
+                    <img class="our-team-img" src="images/nasz_zespol/img.jpg" alt="Zdjęcie John Doe" width="270"
+                        height="260">
+                    <h3 class="our-team-name">John Doe</h3>
+                    <p class="our-team-text">Product Designer</p>
+
+                </li>
+                <li>
+
+                    <img class="our-team-img" src="images/nasz_zespol/img-1.jpg" alt="Zdjęcie John Doe" width="270"
+                        height="260">
+                    <h3 class="our-team-name">John Doe</h3>
+                    <p class="our-team-text">Frontend Developer</p>
+
+                </li>
+                <li>
+
+                    <img class="our-team-img" src="images/nasz_zespol/img-2.jpg" alt="Zdjęcie John Doe" width="270"
+                        height="260">
+                    <h3 class="our-team-name">John Doe</h3>
+                    <p class="our-team-text">Marketing</p>
+
+                </li>
+                <li>
+
+                    <img class="our-team-img" src="images/nasz_zespol/img-3.jpg" alt="Zdjęcie John Doe" width="270"
+                        height="260">
+                    <h3 class="our-team-name">John Doe</h3>
+                    <p class="our-team-text">UI Designer</p>
+
+                </li>
+            </ul>
+        </section>
+        <!--END OUR TEAM-->
     </main>
-    <footer>
-        <a href="#">WebStudio</a>
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/z8AUtfWgx6kHP8Zq7">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+    <footer class="footer">
+        <a class="navigation-logo" href="#">WebStudio</a>
+        <address class="footer-address">
+            <ul class="footer-address-list">
+                <li class="footer-address-list-item"><a class="footer-address-list-address"
+                        href="https://goo.gl/maps/z8AUtfWgx6kHP8Zq7">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+                <li class="footer-address-list-item"><a class="footer-address-list-mail"
+                        href="mailto:info@example.com">info@example.com</a></li>
+                <li class="footer-address-list-item"><a class="footer-address-list-tel" href="tel:+48111111111">+48 111
+                        111 111</a></li>
             </ul>
         </address>
     </footer>
 </body>
-</htm   
+</htm
